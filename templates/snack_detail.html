@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div>
+    <a href="{% url 'snack_list' %}">Back</a>
+    <h2>{{ snack_object.name }}</h2>
+    <p>description: {{ snack_object.description }}</p>
+    <p>purchaser: {{ snack_object.purchaser }}</p>
+</div>
+
+{% endblock %}
