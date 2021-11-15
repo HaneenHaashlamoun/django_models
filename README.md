@@ -1,5 +1,7 @@
 # django_models
 
+https://github.com/HaneenHaashlamoun/django_models/pull/1
+
 ## Feature Tasks and Requirements
 ## Model
 - [x] create snack_tracker_project project
